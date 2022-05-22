@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="#" method="Get">
+        <label for="FirstName">First name: *</label>
+        <input type="text" id="FirstName" name="FirstName" required><br><br>
+
+        <label for="LastName">Last name: *</label>
+        <input type="text" id="LastName" name="LastName" required><br><br>
+
+        <label for="EmailAddress">Email Address: *</label>
+        <input type="email" id="EmailAddress" name="EmailAddress" required><br><br>
+
+        <label for="Password">Password: *</label>
+        <input type="password" id="Password" name="Password" required><br><br>
+
+        <label for="ConfirmPassword">Confirm Password: *</label>
+        <input type="password" id="ConfirmPassword" name="ConfirmPassword" required><br><br>
+
+        <label for="Birthday">Birthday : </label>
+        <input type="date" id="Birthday" name="Birthday" placeholder="mm/dd/yyyy"><br><br>
+       
+       
+        <label for="GenderIdentity">Gender Identity:</label><br>
+
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female">Female</label>
+        <input type="radio" id="Non-binary" name="Gender" value="Non-binary">
+        <label for="Non-binary">Non-binary</label>
+        <input type="radio" id="non" name="Gender" value="non">
+        <label for="non">I prefer not to answer</label><br><br>
+
+        <label for="Description">A short description a bout my self :</label><br>
+        <textarea name="Description" id="Description" rows="4" cols="50"></textarea><br><br>
+
+        <label for="language">Favorite Language :</label>
+
+<select name="language" id="language">
+  <option value="JavaScritpt">JavaScritpt</option>
+  <option value="Java">Java</option>
+  <option value="CSS">CSS</option>
+  <option value="HTML">HTML</option>
+</select><br>
+
+<input type="checkbox" id="ReceiveEmailUpdate" name="ReceiveEmailUpdate" value="ReceiveEmailUpdate">
+<label for="ReceiveEmailUpdate"> Yes , I would like to receive email updates </label><br><br>
+<input type="submit" value="Create Account">
+      </form>
+</body>
+</html>
